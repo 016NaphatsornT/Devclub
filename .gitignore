@@ -1,0 +1,37 @@
+# OS
+Thumbs.db
+.DS_Store
+
+# PHP / Composer
+/vendor/
+/composer.lock
+/.idea/
+/.vscode/
+.env
+.env.php
+.env.local
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Build
+dist/
+
+# XAMPP
+/storage/
+
+# phpstorm
+.idea/
+
+# SQL
+*.sql
+
+# Sensitive files
+config.php
+db.php
+
+# Ignore the devclub folder itself if it's nested (just in case)
+/devclub/
