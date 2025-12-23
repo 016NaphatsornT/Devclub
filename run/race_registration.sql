@@ -1,15 +1,4 @@
--- ================================
--- Database: race_registration
--- ================================
-CREATE DATABASE IF NOT EXISTS race_registration
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_general_ci;
 
-USE race_registration;
-
--- ================================
--- Table: race_category
--- ================================
 CREATE TABLE race_category (
     category_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,

@@ -106,6 +106,7 @@ $shipping_result = $conn->query($shipping_sql);
                 <option value="">-- เลือกประเภทการแข่งขัน --</option>
                 <?php while ($row = $category_result->fetch_assoc()) { ?>
                     <option value="<?= $row['category_id']; ?>">
+
                         <?= $row['name']; ?>
                     </option>
                 <?php } ?>
